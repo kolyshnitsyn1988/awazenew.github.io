@@ -1,0 +1,640 @@
+@import "bourbon/bourbon"
+
+$select-color: #6b848c
+$plus-color: #fdfdfd
+$placeholder-color: #c0c0c0
+$black-color: #000000
+$gray-text: #3a3f4b
+$blue-color: #00a5ff
+$blue-text-color: #8198a0
+$red-color: #ee3f22
+$white-color: #ffffff
+$t_name-color: #474747
+$foot_fon: #1e292f
+$menu-icon-color: #fff
+$fon_item: #f5f6f8
+$fon_portfolio: #f5f6f8
+$text-color_item: #999999
+$footer_bg: #3b404c
+$border: #f4f5f9
+$duration: 0.5s
+
+body
+	font-family: "MyriadProRegular" , sans-serif
+	font-weight: 300
+	font-size: 16px
+	position: relative
+	line-height: 1.6
+	margin: 0
+	overflow-x: hidden
+a,a:hover,a:focus
+	outline: none
+a.btn
+	text-decoration: none
+ul
+	margin: 0
+	padding: 0
+ul li
+	list-style-type: none
+.hidden
+	display: none
+.container
+	width: 1170px
+	margin: 0 auto
+.main_head
+	padding-top: 20px
+	height: 711px
+	background: url(../img/head.jpg)no-repeat
+	.logo_img
+		display: inline-block
+		width: 130px
+		height: 38px
+		background: url(../img/logo.png)no-repeat
+	.nav_mnu
+		display: block
+		height: 25px
+		text-align: right
+		margin-top: 5px
+		ul
+			display: inline-block
+			width: 69%
+		ul li 
+			list-style-type: none
+			a
+				display: inline-block
+				float: left
+				color: $white-color
+				margin: 15px 0 15px 35px
+				text-align: right
+				position: relative
+				&::before,&::after
+					position: absolute
+					top: 0
+					left: 0
+					width: 100%
+					height: 2px
+					content: ''
+					opacity: 0
+					transition: opacity 0.3s, transform 0.3s
+					transform: translateY(-10px)
+					background: green
+				&::before
+					top: 0
+					-webkit-transform: translateY(-10px)
+					-moz-transform: translateY(-10px)
+					-o-transform: translateY(-10px)
+					transform: translateY(-10px)
+				&::after
+					bottom: 0
+					-webkit-transform: translateY(10px)
+					-moz-transform: translateY(10px)
+					-o-transform: translateY(10px)
+					transform: translateY(10px)
+				&:hover::after
+					opacity: 1
+					-webkit-transform: translateY(0px)
+					-moz-transform: translateY(0px)
+					-o-transform: translateY(0px)
+					transform: translateY(0px)
+	#info
+		display: block
+		width: 100%
+		text-align: center
+		color: $white-color
+	.info_post,.info_descr
+		display: block
+		width: 100%
+		margin-top: 185px
+		font-size: 56px
+		font-family: "lora-bold"
+	.info_descr
+		font-size: 26px
+		margin-top: 20px
+		font-family: "OpenSansRegular"
+.btn
+	display: inline-block
+	width: 320px
+	height: 75px
+	background-color: $blue-color
+	color: $white-color
+	border-radius: 34px
+	text-decoration: none
+	padding-top: 15px
+	text-align: center
+	box-shadow: 2px 5px 5px rgba(0,0,0,.25)
+	border: none
+	outline: none
+	text-decoration: none
+	margin: 90px 0 0 0
+	font-family: "OpenSansSemiBold"
+	font-size: 26px
+#our_services
+	display: block
+	width: 100%
+	text-align: center
+	.service_item
+		display: block
+		width: 100%
+		margin-top: 120px
+		.item_info,.web-design,.brandings,.pero
+			display: inline-block
+			width: 80px
+			height: 80px
+			background: $fon_item url(../img/pensil.svg)no-repeat
+			background-position: center center
+			border-radius: 50%
+			text-align: center	
+		.item_descr
+			display: block
+			text-transform: uppercase
+			color: $gray-text
+			font-family: "SourceSansPro-Semibold"
+			font-size: 16px
+			letter-spacing: 1px
+			margin-top: 15px
+			line-height: 19px
+		.sm-separ
+			display: inline-block
+			width: 40px
+			height: 1px
+			background: $text-color_item
+		.item_text
+			display: block
+			color: $text-color_item
+			font-family: "OpenSansLight"
+			font-size: 12px
+			line-height: 20px
+			margin: 15px 0 100px 0
+			letter-spacing: 1px
+		.web-design
+			background: $fon_item url(../img/design.png)no-repeat
+			background-position: center center
+		.brandings
+			background: $fon_item url(../img/lamp.png)no-repeat
+			background-position: center center
+		.pero
+			background: $fon_item url(../img/pero.png)no-repeat
+			background-position: 20px 17px		
+.section_info
+	display: block
+	width: 100%
+	color: $gray-text
+	text-transform: uppercase
+	font-family: "lora-bold"
+	font-size: 36px
+	line-height: 14px
+	font-weight: bold
+	padding-top: 75px	
+.section_separator
+	display: inline-block
+	width: 145px
+	height: 3px
+	background: $blue-color
+	margin-top: 30px
+#portfolio
+	display: block
+	width: 100%
+	height: auto
+	background: $fon_portfolio
+	text-align: center
+	padding-top: 45px
+	.nav_works
+		display: block
+		width: 100%
+		text-align: center
+		ul 
+			text-align: center
+			margin: 50px 0 40px 0
+		ul li
+			display: inline-block
+			list-style-type: none
+			text-transform: uppercase
+			color: $text-color_item
+			text-decoration: none
+			line-height: 40px
+			text-align: center
+			cursor: pointer
+			margin: 0 35px
+			padding: 0
+		ul li.active
+			color: $blue-color
+			border-bottom: 1px solid $blue-color
+	.portfolio_item
+		width: 380px
+		height: 350px
+		box-shadow: 2px 2px 6px rgba(0,0,0,.15)
+		margin-bottom: 15px
+		img
+			max-width: 100%
+		.agency,.branding,.web_design
+			display: inline-block
+			width: 380px
+			height: 275px
+			background: url(../img/agency_img.jpg)no-repeat
+		.branding
+			background: url(../img/branding_img.jpg)no-repeat
+		.web_design
+			background: url(../img/design_img.jpg)no-repeat	
+		.everest
+			background: url(../img/everest_img.jpg)no-repeat
+		.poster
+			background: url(../img/poster_img.jpg)no-repeat
+		.illustrator
+			background: url(../img/illustrator_img.jpg)no-repeat
+		.descr_wrapp
+			display: block
+			width: 100%
+			position: relative
+			height: 75px
+			background: $border
+			padding: 30px 0 0 35px
+			text-align: left
+			font-family: "OpenSansSemiBold"
+			color: $text-color_item
+	.btn
+		margin: 35px 0 80px 0
+		padding-top: 0px
+		width: 280px
+		height: 60px
+.portfolio_item
+	display: none
+#brands
+	display: block
+	text-align: center
+	ul li
+		list-style-type: none
+		margin-top: 85px
+		a
+			float: left
+			margin: 0 5% 5% 0
+		.bakery,.cavalier,.harvest,.handlock,.spectrum,.home
+			display: inline-block
+			color: $text-color_item
+		.bakery
+			width: 125px
+			height: 98px
+			background: url(../img/bakery.png)no-repeat
+		.cavalier
+			width: 119px
+			height: 79px
+			background: url(../img/cavalier.png)no-repeat
+		.harvest
+			width: 147px
+			height: 80px
+			background: url(../img/harvest.png)no-repeat
+		.handlock
+			width: 144px
+			height: 83px
+			background: url(../img/handlock.png)no-repeat
+		.spectrum
+			width: 105px
+			height: 45px
+			background: url(../img/spectr.png)no-repeat
+		.home
+			width: 151px
+			height: 45px
+			background: url(../img/home-energy.png)no-repeat
+			
+#about
+	background: $fon_portfolio
+	text-align: center
+	.carousel_wrapp
+		display: block
+		margin-top: 55px
+		.slide_1
+			display: block
+			text-align: center
+			margin-bottom: 145px
+			.img_1
+				display: inline-block
+				border-radius: 50%
+				width: 135px
+				height: 135px
+				background: url(../img/img1.png) top center no-repeat
+				margin-bottom: 50px
+			.comment
+				display: block
+				width: 100%
+				font-family: "MyriadProRegular"
+				font-size: 22px
+				span.text-comment
+					display: block
+					width: 100%
+				.web
+					margin-top: 45px
+					a
+						color: $gray-text
+#contact
+	display: block
+	width: 100%
+	background: $footer_bg
+	padding-top: 85px
+	color: $white-color
+	text-align: center
+	.name_blog
+		float: left
+		font-family: "lora-bold"
+		color: $white-color
+		font-size: 30px
+	.footer_nav_mnu
+		display: inline-block
+		width: 100%
+		ul
+			margin: 5px 0 0 75px
+			a
+				display: inline-block
+				float: left
+				color: $white-color
+				margin-bottom: 115px
+				margin-right: 30px
+				font-size: 20px	
+	.field
+		position: relative
+		height: 60px
+		&:after,&:before
+			content: ""
+			height: 2px
+			width: 100%
+			position: absolute
+			bottom: 6px
+			left: 0
+			background:  $text-color_item
+		&:after
+			background: $blue-color
+			transform: scaleX(0)
+			transition: transform 0.3s
+		.field-label
+			display: block
+			line-height: 16px
+			font-size: 16px
+			font-weight: 400
+			margin: 0
+			position: relative
+			transform: translateY(24px)
+			transition: transform 0.3s
+			transform-origin: 0.50%
+			text-align: left
+		.field-input
+			font-size: 18px
+			padding: 8px 0
+			line-height: 16px
+			display: block
+			height: 37px
+			width: 100%
+			border: none
+			outline: none
+			background: transparent
+		.is-focused .field-label
+			font-size: 1.0em
+			color: $text-color_item
+
+	.has-label .field-label
+		transform: translateY(0) scale(0.75)
+	.field .is-focused &:after
+		transform: scaleX(1)
+	textarea.field-input
+		height: 140px
+	
+	.address
+		float: left
+		text-align: left
+		margin-bottom: 60px
+	.message_wrapp
+		width: 100%
+		float: left
+		text-align: left
+		.btn
+			margin: 0
+			width: 280px
+			height: 60px
+			padding-top: 0
+			margin-bottom: 70px
+	.descr_addr
+		display: block
+		font-family: "OpenSansSemiBold"
+		text-transform: uppercase
+		color: $white-color
+	.text_addr
+		display: block
+		width: 80%
+		font-family: "MyriadProRegular"
+		color: $text-color_item
+		line-height: 22px
+
+#copyright
+	display: block
+	min-height: 90px
+	padding-top: 25px
+	.copy
+		display: block
+		width: 50%
+		float: left
+		text-align: left
+	.social_wrapp
+		display: block
+		width: 27%
+		float: right
+		a
+			width: 30px
+			height: 30px
+			background: $text-color_item
+			border-radius: 50%
+			float: left
+			margin-left: 5px
+			padding: 3px 0 0 10px
+			color: $white-color
+			&:hover
+				background: $blue-color
+				transition: 0.5s
+		a.twitter
+			padding: 3px 0 0 8px
+		a.linkinedin
+			padding: 3px 0 0 8px
+			
+
+
+//////////// navigation responsive //////////////////////
+.menu-icon,.menu-icon-cross,.nav_top_mnu
+	display: none
+
+.menu-icon
+	position: absolute
+	top: 15%
+	left: 82%
+	width: 44px
+	height: 44px
+	background-color: $blue-color
+	border-radius: 50%
+	span
+		position: absolute
+		top: 50%
+		left: 50%
+		display: block
+		width: 22px
+		height: 2px
+		background-color: $menu-icon-color
+		transform: translateX(-50%) translateY(-50%)
+		&::before,
+		&::after
+			content: ""
+			position: absolute
+			top: 0
+			left: 0
+			display: block
+			width: 22px
+			height: 2px
+			background-color: $menu-icon-color
+			transform: translateY(-6px)
+			transition: transform $duration
+		&::after
+			transform: translateY(6px)
+	span::before
+		transform: translateY(-8px)
+	span::after
+		transform: translateY(8px)
+.menu-icon-cross
+	transition: transform $duration
+	span::before,
+	span::after
+		transform-origin: 50% 50%
+	span
+		z-index: 2
+		transition: background $duration, transform $duration
+	&.is-opened
+		transform: rotate(180deg)
+		span
+			background: transparent
+		span::before
+			transform: translateY(0) rotate(45deg)
+		span::after
+			transform: translateY(0) rotate(-45deg)	
+.top_mnu
+	position: absolute
+	width: 100%
+	background-color: rgba(0,0,0,.85)
+	z-index: 50
+	right: 0
+	top: 118px
+	display: none
+	ul,
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0
+	ul
+		margin-top: 180px
+		text-align: center
+		+animation-duration(.01s)
+		li
+
+			&:nth-child(1) a
+				+animation-delay(0)
+			&:nth-child(2) a
+				+animation-delay(.1s)
+			&:nth-child(3) a
+				+animation-delay(.2s)
+			&:nth-child(4) a
+				+animation-delay(.3s)
+		a
+			color: #fff
+			display: block
+			text-transform: uppercase
+			font-size: 12px
+			opacity: 0
+			position: relative
+			height: 60px
+			padding-top: 25px
+			outline: none
+			font-family: "MyriadProRegular"
+			letter-spacing: 2px
+			span
+				display: block
+				position: relative
+				top: 0
+				left: -40px
+				height: 100%
+				+transition(all 0.5s ease)
+			&:hover
+				background-color: rgba(255,255,255,.08)	
+
+//////////// navigation responsive //////////////////////
+.mfp-content
+	text-align: center
+.mfp-close-btn-in .mfp-close
+	position: absolute
+	top: 0
+	right: 0
+	background: none
+	color: $white-color
+.mfp-content #bg_img_4
+	.mfp-close-btn-in .mfp-close
+		right: 37%
+.mfp-auto-cursor .mfp-content
+	padding-top: 50px
+	width: 40%
+	height: 400px
+	background: $blue-color
+	border: 4px solid $blue-color
+	border-radius: 6px
+	input
+		display: block
+		width: 80%
+		height: 40px
+		float: left
+		margin: 0 0 20px 54px
+		border-radius: 6px
+		border: none
+		padding-left: 10px
+	.order
+		display: inline-block
+		width: 80%
+		text-align: center
+		height: 40px
+		background: $text-color_item
+		color: $white-color
+		border: none
+		border-radius: 6px
+	textarea
+		display: inline-block
+		width: 80%
+		height: 80px
+		border-radius: 6px
+		margin-bottom: 20px
+.header_wrapp.smaller
+	height: 75px
+	-webkit-transition: all 0.5s
+	-moz-transition: all 0.5s
+	-ms-transition: all 0.5s
+	-o-transition: all 0.5s
+	transition: all 0.5s
+	.logo .logo_img
+		margin: 20px 0 0 0
+		-webkit-transition: all 0.5s
+		-moz-transition: all 0.5s
+		-ms-transition: all 0.5s
+		-o-transition: all 0.5s
+		transition: all 0.5s
+	ul li 
+		height: 70px
+		a
+			padding: 30px 10px
+			-webkit-transition: all 0.5s
+			-moz-transition: all 0.5s
+			-ms-transition: all 0.5s
+			-o-transition: all 0.5s
+			transition: all 0.5s
+	.contact
+		span
+			display: none		
+		.scroll_btn
+			display: inline-block
+			margin-top: 5px
+			-webkit-transition: height 0.5s
+			-moz-transition: height 0.5s
+			-ms-transition: height 0.5s
+			-o-transition: height 0.5s
+			transition: height 0.5s
+	.top_mnu
+		top: 75px
+	.menu-icon
+		top: 33%

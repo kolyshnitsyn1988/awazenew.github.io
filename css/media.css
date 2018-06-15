@@ -1,0 +1,858 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media screen and (min-width: 320px) and (max-width: 479px){
+	.container{
+		display: block;
+		width: 100%;
+		padding: 0 2%;
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	.logo a.logo_img{
+		display: inline-block;
+		text-align: center;
+	}
+	.main_head .nav_mnu{	display: none;	}
+	.main_head .info_post{
+		margin-top: 15%;
+		font-size: 2.1em;
+		line-height: 1.8em;
+	}
+	.main_head .info_descr{
+		font-size: 1.7em;
+		line-height: 1.8em;
+		margin-bottom: 10%;
+	}
+	.top_mnu{	top: 60px;	}
+	.top_mnu ul{margin-top: 0px;	}
+	.top_mnu ul a{
+		opacity: 1;
+		padding: 20px 0 0 0;
+		margin-top: 0px;
+		text-decoration: none;
+	}
+	.top_mnu ul a:hover{color: #00a5ff;	}
+	.menu-icon , .menu-icon-cross{	display: block;	}
+	.menu-icon{
+		top: -5%;
+		left: 80%;
+	}
+	#info a.btn{
+		width: 95%;
+		margin: 15% 0 0 0;
+		text-align: center;
+	}
+	#our_services .service_item{margin-top: 5%;	}
+	#our_services .service_item .item_text{	margin: 10px 0 70px 0;	}
+	.section_info{	padding-top: 10%;	}
+	#brands .section_info{
+		font-size: 30px;
+		line-height: 30px;
+		word-spacing: 1px;
+	}
+	#brands ul li{	margin-top: 15%;	}
+	#brands ul li a{ float: none; }
+	#about .section_info{
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+	#about .carousel_wrapp .slide_1{margin-bottom: 15%;}
+	#about .carousel_wrapp .slide_1 .comment span.text-comment{
+		text-align: center;
+		font-size: 1.3em;
+	}
+	#portfolio .nav_works ul{	margin: 20px 0 20px 0;	}
+	#portfolio .nav_works ul li{
+		margin: 0 2px;
+		font-size: 12px;
+		text-align: left;
+	}
+	#portfolio .portfolio_item .descr_wrapp{
+		height: auto;
+		padding: 4% 0 0 10%;	
+	}
+	#portfolio .portfolio_item{	
+		width: 100%;
+		height: auto;
+		margin-bottom: 10%;	
+	}
+	#contact{	padding-top: 10%;	}
+	#contact .name_blog {float: none;}
+	#contact .field{
+		display: inline-block;
+		width: 100%;
+		height: auto;
+	}
+	#contact .address{
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	#contact .message_wrapp{
+		text-align: center;
+		margin-top: 10%;
+	}
+	#contact .footer_nav_mnu{
+		margin-bottom: 10%;
+		text-align: center;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 2% 9% 4% 0;
+		font-size: 1.0em;
+	}
+	#copyright .social_wrapp{
+		float: right;
+		margin-bottom: 20%;
+	}
+	.mfp-container{top:-18%;}
+	.mfp-auto-cursor .mfp-content,#copyright .copy,#copyright .social_wrapp{
+		width: 100%;
+	}
+	.mfp-auto-cursor .mfp-content .order{	
+		background: #999999;
+		outline: none;	
+	}
+	.mfp-auto-cursor .mfp-content input,.mfp-auto-cursor .mfp-content textarea{
+		margin: 0 0 3% 9%;	
+	}
+	.mfp-auto-cursor .mfp-content textarea{
+		outline: none;
+		padding-left: 10px;
+		margin: 0 0 3% -2%;
+	}
+}
+/* Extra Small Devices, Phones */
+@media screen and (min-width : 480px) and (max-width: 639px){
+	.container{
+		display: block;
+		width: 100%;
+		padding: 0 2%;
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	.logo a.logo_img{
+		display: inline-block;
+		text-align: center;
+	}
+	.main_head .nav_mnu{	display: none;	}
+	.main_head .info_post{
+		margin-top: 15%;
+		font-size: 2.1em;
+		line-height: 1.8em;
+	}
+	.main_head .info_descr{
+		font-size: 1.7em;
+		line-height: 1.8em;
+		margin-bottom: 10%;
+	}
+	.top_mnu{	top: 60px;	}
+	.top_mnu ul{margin-top: 0px;	}
+	.top_mnu ul a{
+		opacity: 1;
+		padding: 20px 0 0 0;
+		margin-top: 0px;
+		text-decoration: none;
+	}
+	.top_mnu ul a:hover{color: #00a5ff;	}
+	.menu-icon , .menu-icon-cross{	display: block;	}
+	.menu-icon{
+		top: -5%;
+		left: 86%;
+	}
+	#info a.btn{
+		width: 70%;
+		margin: 15% 0 0 3%;
+		text-align: center;
+	}
+	#our_services .service_item{ margin-top: 5%;	}
+	#our_services .service_item .item_text{	
+		margin: 3% 0 7% 0;
+		font-size: 1.4em;	
+	}
+	.section_info{	padding-top: 10%;	}
+	#brands .section_info{
+		font-size: 1.9em;
+		line-height: 1.3em;
+		word-spacing: 1px;
+	}
+	#brands ul li{
+		width: 45%;	
+		margin: 5% 0 5% 5%;
+		float: left;	
+	}
+	#brands ul li a{float: none;}
+	#brands ul li .cavalier{
+		width: 100%;
+		background-position: bottom center;
+		margin-top: 10%;
+	}
+	#about .section_info{
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+	#about .carousel_wrapp .slide_1{margin-bottom: 15%;}
+	#about .carousel_wrapp .slide_1 .comment span.text-comment{
+		text-align: center;
+		font-size: 1.3em;
+	}
+	#portfolio .nav_works ul{	margin: 20px 0 20px 0;	}
+	#portfolio .nav_works ul li{
+		margin: 0 1%;
+		font-size: 1.1em;
+		text-align: left;
+	}
+	#portfolio .portfolio_item .descr_wrapp{
+		height: auto;
+		padding: 4% 0 0 10%;	
+	}
+	#portfolio .portfolio_item{	
+		height: auto;
+		margin-bottom: 10%;	
+	}
+	#contact{	padding-top: 10%;	}
+	#contact .name_blog { float: none; }
+
+	#contact ul{margin: 5% 0 0 0;}
+	#contact ul a{
+		font-size: 0.9em;
+		margin-right: 4%;
+		margin-bottom: 20%;
+	}
+	#contact .field{
+		display: inline-block;
+		width: 100%;
+		height: auto;
+	}
+	#contact .address{
+		width: 33%;
+		margin-bottom: 5%;
+	}
+	#contact .message_wrapp{
+		text-align: center;
+		margin-top: 10%;
+	}
+	#contact .footer_nav_mnu{
+		margin-bottom: 10%;
+		text-align: center;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 2% 9% 4% 0;
+		font-size: 1.0em;
+	}
+	#contact .text_addr{
+		width: 90%;
+		line-height: 1.5em;
+	}
+	#copyright .copy{font-size: 0.9em;	}
+	#copyright .social_wrapp{
+		float: right;
+		margin-bottom: 20%;
+	}
+	#copyright .social_wrapp ul li{float: right;}
+	.mfp-container{top:-18%;}
+	.mfp-auto-cursor .mfp-content,#copyright .copy,#copyright .social_wrapp{
+		width: 100%;
+	}
+	.mfp-auto-cursor .mfp-content .order{	outline: none;	}
+	.mfp-auto-cursor .mfp-content input,.mfp-auto-cursor .mfp-content textarea{
+		margin: 0 0 3% 9%;	
+	}
+	.mfp-auto-cursor .mfp-content textarea{
+		outline: none;
+		padding-left: 10px;
+		margin: 0 0 3% -2%;
+	}
+}
+/* Small Devices, Tablets */
+@media screen and (min-width: 640px) and (max-width : 767px){
+	.container{
+		display: block;
+		width: 100%;
+	}
+	.logo{
+		float: left;
+		text-align: center;
+	}
+	.logo a.logo_img{
+		display: inline-block;
+		text-align: center;
+	}
+	.main_head .nav_mnu{
+		width: 72%;
+		text-align: left;
+		float: right;
+	}
+	.main_head .nav_mnu ul{width: 100%;}
+	.main_head .nav_mnu ul li a{
+		display: inline-block;
+		margin-left: 1%;
+		font-size: 1.3em;
+		line-height: 1.6em;
+	}
+	.main_head .info_post{
+		margin-top: 15%;
+		font-size: 3.1em;
+		line-height: 1.8em;
+	}
+	.main_head .info_descr{
+		font-size: 2.3em;
+		line-height: 1.3em;
+		margin-top: 7%;
+	}
+	#info a.btn{
+		width: 45%;
+		margin: 15% 0 0 3%;
+		text-align: center;
+	}
+	#our_services .service_item{
+		float: left;
+		width: 50%;
+		margin: 4% 0;	
+	}
+	#our_services .service_item .item_text{	
+		margin: 3% 0 7% 0;
+		font-size: 1.4em;	
+	}
+	.section_info{	padding-top: 5%;	}
+	#brands .section_info{
+		font-size: 1.9em;
+		line-height: 1.3em;
+		word-spacing: 1px;
+	}
+	#brands ul li{
+		width: 45%;	
+		margin: 5% 0 5% 5%;
+		float: left;	
+	}
+	#brands ul li a{float: none;}
+	#brands ul li .cavalier{
+		width: 100%;
+		background-position: bottom center;
+		margin-top: 10%;
+	}
+	#about .section_info{
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+	#about .carousel_wrapp .slide_1{margin-bottom: 5%;}
+	#about.carousel_wrapp .slide_1 .comment .web{margin-top: 2%;}
+	#about .carousel_wrapp .slide_1 .comment span.text-comment{
+		text-align: center;
+		font-size: 1.3em;
+	}
+	#portfolio .nav_works ul{	margin: 20px 0 20px 0;	}
+	#portfolio .nav_works ul li{
+		margin: 0 1%;
+		font-size: 1.1em;
+		text-align: left;
+	}
+	#portfolio .portfolio_item .descr_wrapp{
+		height: auto;
+		padding: 4% 0 0 10%;	
+	}
+	#portfolio .portfolio_item{	
+		width: 45%;
+		height: auto;
+		margin: 0 0 10% 1%;
+	}
+	#contact{	padding-top: 7%;	}
+	#contact .name_blog { float: none; }
+	#contact form{ height: auto ;}
+	#contact ul{ margin: 5% 0 0 0; }
+	#contact ul a{
+		font-size: 0.9em;
+		margin-right: 4%;
+		margin-bottom: 20%;
+	}
+	#contact .field{
+		display: inline-block;
+		width: 40%;
+		height: auto;
+		margin-left: 2%;
+	}
+	#contact .address{
+		width: 33%;
+		margin-bottom: 5%;
+	}
+	#contact .message_wrapp{
+		text-align: center;
+		margin-top: 10%;
+	}
+	#contact .footer_nav_mnu{
+		margin-bottom: 10%;
+		text-align: center;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 2% 9% 4% 0;
+		font-size: 1.0em;
+	}
+	#contact .text_addr{
+		width: 90%;
+		line-height: 1.5em;
+	}
+	#copyright .copy{font-size: 0.9em;	}
+	#copyright .social_wrapp{
+		float: right;
+		margin-bottom: 20%;
+	}
+	#copyright .social_wrapp ul li{ float: right; }
+	.mfp-container{ top:-30%; }
+	.mfp-auto-cursor .mfp-content,#copyright .copy,#copyright .social_wrapp{
+		width: 90%;
+	}
+	.mfp-auto-cursor .mfp-content .order{	
+		width: 69%;
+		outline: none;	
+	}
+	.mfp-auto-cursor .mfp-content input,.mfp-auto-cursor .mfp-content textarea{
+		width: 70%;
+		margin: 0 0 3% 14%;	
+	}
+	.mfp-auto-cursor .mfp-content textarea{
+		outline: none;
+		padding-left: 10px;
+		margin: 0 0 3% -2%;
+	}
+}
+/* Small Devices, Tablets */
+@media screen and (min-width: 768px) and (max-width : 991px) {
+	.container{
+		display: block;
+		width: 100%;
+	}
+	.logo{
+		float: left;
+		text-align: center;
+		margin-left: 10%;
+	}
+	.logo a.logo_img{
+		display: inline-block;
+		text-align: center;
+	}
+	.main_head .nav_mnu{
+		width: 69%;
+		text-align: left;
+		float: right;
+	}
+	.main_head .nav_mnu ul{width: 100%;}
+	.main_head .nav_mnu ul li a{
+		display: inline-block;
+		margin-left: 4%;
+		font-size: 1.3em;
+		line-height: 1.6em;
+	}
+	.main_head .info_post{
+		margin-top: 15%;
+		font-size: 3.1em;
+		line-height: 1.8em;
+	}
+	.main_head .info_descr{
+		font-size: 2.3em;
+		line-height: 1.3em;
+	}
+	#info a.btn{
+		width: 45%;
+		margin: 15% 0 0 3%;
+		text-align: center;
+	}
+	#our_services .service_item{
+		float: left;
+		width: 50%;
+		margin: 4% 0;	
+	}
+	#our_services .service_item .item_text{	
+		margin: 3% 0 7% 0;
+		font-size: 1.3em;
+		letter-spacing: 1px;	
+	}
+	.section_info{	padding-top: 5%;	}
+	#brands .section_info{
+		font-size: 1.9em;
+		line-height: 1.4em;
+		word-spacing: 1px;
+	}
+	#brands ul li{
+		display: inline-block;
+		width: 30%;	
+		margin: 2% 0 2% 0;
+	}
+	#brands ul li a{float: none;}
+	#brands ul li .cavalier{
+		width: 100%;
+		background-position: bottom center;
+		margin-top: 10%;
+	}
+	#about .section_info{
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+	#about .carousel_wrapp .slide_1{margin-bottom: 5%;}
+	#about.carousel_wrapp .slide_1 .comment .web{margin-top: 2%;}
+	#about .carousel_wrapp .slide_1 .comment span.text-comment{
+		text-align: center;
+		font-size: 1.3em;
+	}
+	#portfolio .nav_works ul{	margin: 20px 0 20px 0;	}
+	#portfolio .nav_works ul li{
+		margin: 0 1%;
+		font-size: 1.1em;
+		text-align: left;
+	}
+	#portfolio .portfolio_item .descr_wrapp{
+		height: auto;
+		padding: 4% 0 0 10%;	
+	}
+	#portfolio .portfolio_item{	
+		width: 31%;
+		height: auto;
+		margin: 0 0 10% 2%;
+		float: left;
+	}
+	#contact{padding-top: 7%;}
+	#contact .name_blog{ float: none; }
+	#contact form{
+		display: inline-block;
+		width: 100%;
+		height: auto;
+	}
+	#contact ul{ margin: 5% 0 0 0; }
+	#contact ul a{
+		font-size: 0.9em;
+		margin-right: 4%;
+		margin-bottom: 20%;
+	}
+	#contact .field{
+		display: inline-block;
+		width: 35%;
+		height: auto;
+		margin-left: 5%;
+	}
+	#contact .address{
+		width: 19%;
+		margin: 0 0 1% 11%;
+	}
+	#contact .message_wrapp{
+		text-align: center;
+		margin-top: 10%;
+	}
+	#contact .footer_nav_mnu{
+		width: 60%;
+		margin: 1% 0 10% 0;
+		text-align: center;
+		float: right;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 0 15% 0 0;
+		font-size: 1.2em;
+	}
+	#contact .text_addr{
+		width: 90%;
+		line-height: 1.5em;
+	}
+	#copyright .copy{font-size: 1.2em;	}
+	#copyright .social_wrapp{
+		float: right;
+		margin-bottom: 20%;
+	}
+	#copyright .social_wrapp ul li{float: right;}
+	.mfp-container{
+		width: 65%;
+		top:-30%;
+		left: 15%;
+	}
+	.mfp-auto-cursor .mfp-content,#copyright .copy,#copyright .social_wrapp{
+		width: 100%;
+	}
+	.mfp-auto-cursor .mfp-content .order{	outline: none;	}
+	.mfp-auto-cursor .mfp-content input{margin: 0 0 3% 10%;	}
+	.mfp-auto-cursor .mfp-content textarea{
+		outline: none;
+		padding-left: 10px;
+		margin: 0 0 3% 0%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media screen and (min-width : 992px) and (max-width: 1200px){
+	.container{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.logo,.logo a.logo_img,#info a.btn,#about .carousel_wrapp .slide_1 .comment span.text-comment,
+	#contact .message_wrapp,#contact .footer_nav_mnu{text-align: center;	}
+	.logo a.logo_img{	display: inline-block;	}
+	.main_head .nav_mnu,.main_head .nav_mnu ul{width: 100%;}
+	.main_head .nav_mnu ul li a{
+		margin-left: 7%;
+		font-size: 1.3em;
+	}
+	.main_head .info_post{
+		margin-top: 15%;
+		font-size: 3.1em;
+		line-height: 1.8em;
+	}
+	.main_head .info_descr{
+		font-size: 2.3em;
+		line-height: 1.3em;
+	}
+	#info a.btn{
+		width: 35%;
+		margin: 15% 0 0 3%;
+	}
+	#our_services .service_item{margin-top: 15% ;}
+	#our_services .service_item .item_text{	
+		font-size: 1.0em;
+		margin-bottom: 15%;
+	}
+	.section_info{	padding-top: 5%;	}
+	#brands .section_info{
+		font-size: 1.9em;
+		line-height: 1.4em;
+		word-spacing: 1px;
+	}
+	#brands ul li{
+		display: inline-block;
+		width: 30%;	
+		margin: 2% 0 2% 0;
+	}
+	#brands ul li a{float: none;}
+	#brands ul li .cavalier{
+		width: 100%;
+		background-position: bottom center;
+		margin-top: 10%;
+	}
+	#about .section_info{
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+	#about .carousel_wrapp .slide_1{margin-bottom: 5%;}
+	#about.carousel_wrapp .slide_1 .comment .web{margin-top: 2%;}
+	#about .carousel_wrapp .slide_1 .comment span.text-comment{font-size: 1.3em;}
+	#portfolio .nav_works ul{	margin: 20px 0 20px 0;	}
+	#portfolio .nav_works ul li{margin: 0 1%;	}
+	#portfolio .portfolio_item .descr_wrapp,#portfolio .portfolio_item,
+	#contact form,#contact .field {height: auto;}
+	#portfolio .portfolio_item .descr_wrapp{padding: 4% 0 0 10%;}
+	#portfolio .portfolio_item{	
+		width: 30%;
+		margin: 0 0 5% 2%;	
+	}
+	#contact{padding-top: 7%;}
+	#contact .name_blog{float: none;}
+	#contact ul{margin: 5% 0 0 0;}
+	#contact ul a{
+		font-size: 0.9em;
+		margin-right: 4%;
+		margin-bottom: 20%;
+	}
+	#contact .field{	width: 72%;	}
+	#contact .address{
+		width: 40%;
+		margin: 0 0 5% 11%;
+	}
+	#contact .address:first-child{width:100%}
+	#contact form{
+		display: inline-block;
+		width: 49%;
+	}
+	#contact .message_wrapp{margin-top: 5%;	}
+	#contact .footer_nav_mnu{
+		width: 60%;
+		margin: 1% 0 10% 0;
+		text-align: center;
+		float: right;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 0 15% 0 0;
+		font-size: 1.2em;
+	}
+	#contact .text_addr{
+		width: 90%;
+		line-height: 1.5em;
+	}
+	#copyright .copy{font-size: 1.2em;	}
+	#copyright .social_wrapp{
+		float: right;
+		margin-bottom: 10%;
+	}
+	#copyright .social_wrapp ul li{float: right;}
+	.mfp-container{
+		width: 50%;
+		top:-18%;
+		left: 15%;
+	}
+	.mfp-auto-cursor .mfp-content,#copyright .copy,#copyright .social_wrapp{width: 100%;}
+	.mfp-auto-cursor .mfp-content .order{	outline: none;	}
+	.mfp-auto-cursor .mfp-content input{margin: 0 0 3% 10%;	}
+	.mfp-auto-cursor .mfp-content textarea{
+		outline: none;
+		padding-left: 10px;
+		margin: 0 0 3% 0%;
+	}
+}
+ /* Large Devices, Wide Screens */
+@media screen and (min-width : 1200px) and (max-width: 1370px) {
+	.container{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.logo{text-align: center;}
+	#our_services .service_item{margin-top: 15%;}
+	#our_services .service_item .item_text{margin-bottom: 10%;}
+	#portfolio .nav_works ul{margin: 2% 0;}
+	#portfolio .nav_works ul li{margin: 0 0.5%;}
+	#portfolio .portfolio_item{	
+		width: 28%;
+		margin: 0 0 5% 2%;
+		height: auto;	
+	}
+	#portfolio .btn{margin-top: 0;}
+	#brands ul li{
+		display: inline-block;
+		width: 15%;	
+		margin: 2% 0 2% 0;
+	}
+	#brands ul li a,#contact .name_blog{float: none;}
+	#contact .name_blog{ display: block;	}
+	#contact .footer_nav_mnu{
+		width: 60%;
+		margin: 1% 7% 1% 0;
+		text-align: right;
+		float: right;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{ display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 0 15% 0 0;
+		font-size: 1.2em;
+	}
+	#contact .text_addr{
+		width: 90%;
+		line-height: 1.5em;
+	}
+	#contact .address{margin: 0 0 2% 5%;}
+	#contact .address:first-child{ width: 100%;}
+	#contact form{
+		display: inline-block;
+		width: 37%;
+	}
+	#contact .message_wrapp{
+		text-align: center;
+		padding-top: 5%;	
+	}
+
+}
+@media screen and (min-width : 1371px) and (max-width: 1600px) {}
+@media screen and (min-width : 1920px){
+	.container{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.logo,.main_head .nav_mnu{text-align: center;}
+	.main_head .nav_mnu ul li a{
+		margin-left: 1%;
+		font-size: 1.3em;	
+	}
+	.main_head .info_post, .main_head .info_descr{	width:70%;	}
+	.main_head .info_post{margin-top: 5%;}
+	a.btn{margin-right: 30%;}
+	#our_services .section_info{
+		display: inline-block;
+		margin-right: 30%;
+	}
+
+
+	#our_services .service_item{margin-top: 15%;}
+	#our_services .service_item .item_text{margin-bottom: 10%;}
+	#portfolio .nav_works ul{margin: 2% 0;}
+	#portfolio .nav_works ul li{margin: 0 0.5%;}
+	#portfolio .portfolio_item{	
+		width: 30%;
+		margin: 0 0 5% 2%;	
+	}
+	#portfolio .btn{margin-top: 0;}
+	#brands ul li{
+		display: inline-block;
+		width: 15%;	
+		margin: 2% 0 2% 0;
+	}
+	#brands ul li a,#contact .name_blog{float: none;}
+	#contact .name_blog{ display: block;	}
+	#contact .footer_nav_mnu{
+		width: 60%;
+		margin: 1% 7% 1% 0;
+		text-align: right;
+		float: right;
+	}
+	#contact .footer_nav_mnu ul{	margin: 0;	}
+	#contact .footer_nav_mnu ul li{ display: inline-block;	}
+	#contact .footer_nav_mnu ul a{
+		margin: 0 15% 0 0;
+		font-size: 1.2em;
+	}
+	#contact .text_addr{
+		width: 90%;
+		line-height: 1.5em;
+	}
+	#contact .address{margin: 0 0 2% 5%;}
+	#contact .address:first-child{ width: 100%;}
+	#contact form{
+		display: inline-block;
+		width: 37%;
+	}
+	#contact .message_wrapp{
+		text-align: center;
+		padding-top: 5%;	
+	}
+	
+}	
